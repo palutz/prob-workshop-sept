@@ -121,5 +121,3 @@ variables (q w : mynat2)
 -- V = ℝ² → W = ℝ³ 
 -- we need ordered so basis cound not be a Set 
 -- In Lean a basis is a function  B : L → V   (L = iota)
-
-variables (k : Type)[field k]

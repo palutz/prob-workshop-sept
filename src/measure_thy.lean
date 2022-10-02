@@ -73,8 +73,7 @@ example (s : ℕ → set Ω) (S : set Ω)
   (hs : ∀ n, measurable_set (s n)) (hS : measurable_set S) : 
   measurable_set (S ∩ ⋂ n, s n) :=
 begin
-  apply measurable_set.union,
-
+  sorry
 end
 
 -- Now lets add a measure `μ` on `Ω`
@@ -169,7 +168,7 @@ example : measurable (id : Ω → Ω) :=
 example (g : X → X) (hg : measurable g) (hf : measurable f) :
   measurable (g ∘ f) :=
 begin
-  sorry
+
 end
 
 /-!
